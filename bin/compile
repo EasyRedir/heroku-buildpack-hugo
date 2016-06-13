@@ -30,7 +30,7 @@ fi
 # Extract the binary in the working directory
 echo "\n-----> Extracting Hugo ${VERSION} binaries to ${BUILD_DIR}/vendor/hugo"
 mkdir -p $CACHE_DIR/$ARCHIVE_NAME | indent
-tar -xvzf $CACHE_DIR/$FILE_NAME -C $CACHE_DIR | indent
+tar -xvzf $CACHE_DIR/$FILE_NAME -C $CACHE_DIR/$ARCHIVE_NAME | indent
 mv $CACHE_DIR/$ARCHIVE_NAME/hugo $BUILD_DIR/hugo | indent
 
 # Fetch a theme specified in the .hugotheme file
