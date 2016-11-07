@@ -31,7 +31,7 @@ export_env_dir() {
 export_env_dir
 
 # Hugo version
-VERSION="0.16"
+VERSION="0.17"
 
 # Hugo URL ( download from GH builds )
 ARCHIVE_NAME=hugo_${VERSION}_linux-64bit
